@@ -1,0 +1,113 @@
+.aviso{
+    margin-top: 15%;
+    margin-left: 10%;
+    color: white;
+    transition: 1s;
+}
+.two{
+    background-image: url('../img/home/03.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.aviso2{
+    width: 45%;
+    color: #f8f8f8;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+.three{
+    background-image: url('../img/home/02.gif');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.four{
+    background-image: url('../img/home/04.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+@media (max-width:525px){
+    .one{
+        height: 60vh;
+        background-size: 100vh;
+        background-repeat: no-repeat;
+    }
+    .header{
+        padding: 0;
+    }
+    .navbar-brand img{
+        width: 150px
+    }
+    .header-nav-bar{
+        color: white;
+    }
+    .nav-item{
+        font-size: 0.8em;
+    }
+    .aviso{
+        text-align: center;
+        color: white;
+        transition: 1s;
+    }
+    .aviso-subtitle{
+        font-size: 1em;
+    }
+    .aviso-title{
+        font-size: 1.5em;
+    }
+    .aviso button{
+        font-size: .8em;
+    }
+    .two{
+        height: 49vh;
+        background-size: 100vh;
+        background-repeat: no-repeat;
+        padding: 5em 1em;
+    }
+    .aviso2{
+        padding: 1em;
+        width: 100%;
+        text-align: center;
+        color: #f8f8f8;
+        padding: 0;
+    }
+    .aviso-subtitle2{
+        font-size: 1em;
+    }
+    .aviso-title2{
+        font-size: 1.5em;
+    }
+    .three{
+        height: 50vh;
+        background-size: 100vh;
+        background-repeat: no-repeat;
+        padding: 5em 1em;
+    }
+    .four{
+        height: 50vh;
+        background-size: 100vh;
+        background-repeat: no-repeat;
+        padding: 5em 1em;
+    }
+    .footer{
+        height: 100px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+}

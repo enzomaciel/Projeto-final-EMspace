@@ -1,0 +1,324 @@
+.one{
+    background-image: url('../img/falcon9/01.jpg');
+}
+.aviso-falcon{
+    margin-top: 15%;
+    color: white;
+    transition: 1s;
+}
+.aviso__falcon__titulo{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.aviso__falcon__subtitulo{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+}
+.information-falcon{
+    background-image: url('../img/falcon9/02.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    height: 100vh;
+    
+}
+.information__int{
+    display: flex;
+    justify-content: space-around;
+}
+.information__statics__number{
+    font-size: 70px;
+    text-align: center;
+    color: #F8f8f8;
+}
+.information__statics__title{
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F8f8f8;
+}
+.information__text{
+    margin-left: 15%;
+    width: 35%;
+    color: #F8f8f8;
+}
+.information__desc{
+    font-size: 1.2em;
+    font-weight:500 ;
+    line-height: 2em;
+}
+.three{
+    background-color: black;
+    background-size: contain;
+}
+.background-1{
+    background-image: url('../img/falcon9/03.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #F8f8f8;
+    background-color: red;
+}
+.banner-1{
+    margin-top: 15%;
+    margin-left: 15%;
+    display: flex; 
+    flex-direction: column;
+}
+.banner-1-table{
+    margin-top: 1em;
+}
+.statics__banner-1{
+    padding-left: 0.5em;
+    height: 1em;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 0.9em;
+}
+.divisor{
+    position: relative;
+    border: none;
+    height: 2px;
+    width: 30%;
+    background-color: #FFF;
+    opacity: 100;
+}
+.background-2{
+    background-image: url('../img/falcon9/04.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #F8f8f8;
+}
+.background-2-int{
+    width: 30%;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+.background-3{
+    background-image: url('../img/falcon9/05.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-weight: 400;
+}
+.background-3-int{
+    color: #F8f8f8;
+    margin-top: 15%;
+    margin-left: 15%;
+    width: 30%;
+}
+.statics__banner-3{
+    padding-left: 0.5em;
+    height: 1em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+}
+.divisor2{
+    position: relative;
+    border: none;
+    height: 2px;
+    width: 100%;
+    background-color: #FFF;
+    opacity: 100;
+}
+.four{
+    padding: 0;
+    height: 100vh;
+    background-image: url('../img/falcon9/08.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15%;
+}
+.four-static{
+    width: 35%;
+    color: #F8f8f8;
+}
+.five{
+    height: 100vh;
+}
+.item-1{
+    background-image: url('../img/falcon9/09.jpg');
+    background-size: cover;
+    background-repeat: none;
+    height: 100vh;
+}
+.item-2{
+    background-image: url('../img/falcon9/10.jpg');
+    background-size: cover;
+    background-repeat: none;
+    height: 100vh;
+}
+.item-3{
+    background-image: url('../img/falcon9/11.jpg');
+    background-size: cover;
+    background-repeat: none;
+    height: 100vh;
+}
+.item-4{
+    background-image: url('../img/falcon9/12.jpg');
+    background-size: cover;
+    background-repeat: none;
+    height: 100vh;
+}
+.item-5{
+    background-image: url('../img/falcon9/13.jpg');
+    background-size: cover;
+    background-repeat: none;
+    height: 100vh;
+}
+.item-desc{
+    font-size: 1em;
+    background-color: black;
+    padding: 1em 0;
+    border-radius: 15px;
+}
+.footer{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+@media(max-width:525px){
+    .one{
+        height: 50vh;
+        background-size: 100vh;
+        background-repeat: no-repeat;
+    }
+    .aviso-falcon{
+        padding: 1.5em 0;
+        margin: 0;
+        width: 100%;
+    }
+    .aviso__falcon__titulo{
+        font-size: 2em;
+    }
+    .aviso__falcon__subtitulo{
+        font-size: 1em;
+    }
+    .information-falcon{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    height: 100vh;
+    
+    }
+    .information__int{
+        padding: 2em 0 ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .information__statics__number{
+        font-size: 2em;
+    }
+    .information__statics__title{
+        font-size: 1em;
+        text-align: center;
+        text-transform: uppercase;
+        color: #F8f8f8;
+    }
+    .information__text{
+        padding: 0em 1em;
+        margin: 0;
+        width: 100%;
+        color: #F8f8f8;
+    }
+    .information__desc{
+        font-size: 1em;
+        font-weight:300 ;
+        line-height: 1em;
+    }
+    .three{
+        background-color: black;
+        background-size: contain;
+    }
+    .background-1{
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100vh;
+        color: #F8f8f8;
+        background-color: red;
+    }
+    .banner-1{
+        margin: 0;
+        padding: 1em;
+        display: flex; 
+        flex-direction: column;
+    }
+    .statics__banner-1{
+        padding-left: 0.5em;
+        height: 1em;
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        font-size: 0.9em;
+    }
+    .divisor{
+        position: relative;
+        border: none;
+        height: 2px;
+        width: 30%;
+        background-color: #FFF;
+        opacity: 100;
+    }
+    .background-2{
+        background-image: url('../img/falcon9/04.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        color: #F8f8f8;
+    }
+    .background-2-int{
+        width: 30%;
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+    .background-3{
+        background-image: url('../img/falcon9/05.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        font-weight: 400;
+    }
+    .background-3-int{
+        color: #F8f8f8;
+        margin-top: 15%;
+        margin-left: 15%;
+        width: 30%;
+    }
+    .statics__banner-3{
+        padding-left: 0.5em;
+        height: 1em;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.9em;
+    }
+    .divisor2{
+        position: relative;
+        border: none;
+        height: 2px;
+        width: 100%;
+        background-color: #FFF;
+        opacity: 100;
+    }
+
+    .footer{
+        height: 100px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+}
